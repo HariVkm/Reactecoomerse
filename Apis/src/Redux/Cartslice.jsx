@@ -7,7 +7,7 @@ const CartData=createSlice({
     },
     reducers:{
         addTocart:(state,action)=>{
-            console.log(action,"-----------------------------------------");
+            
             // let index=cartStorage.findIndex(item=>item.name===item.name)
            const qtycheck= state.cartStorage.findIndex((item)=>item.id===action.payload.id)
            console.log("The Qty is:",qtycheck);
@@ -28,6 +28,9 @@ const CartData=createSlice({
             // state.cartStorage.splice(ID,1)
             state.cartStorage.splice(state.cartStorage.findIndex((item)=>item.id===action.payload,1))
           
+        },
+        ok:()=>{
+
         }
     }
 })
