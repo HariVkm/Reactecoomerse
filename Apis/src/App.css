@@ -1,0 +1,97 @@
+h1 {
+  text-align: center;
+}
+.btn {
+  position: absolute;
+  top:50%;
+  background-color:purple;
+  color: #fff;
+  border:none;
+  border-radius:10px;
+  height:60px;
+  width:120px;
+}
+.item-container {
+  display: flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+.card {
+  text-align: center;
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  padding: 1em;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color:purple;
+}
+img {
+  height: 100px;
+  width: auto;
+}
+span {cursor:pointer; }
+.number{
+  /* margin:100px; */
+  margin-left: 230px;
+}
+ .plus{
+  width:20px;
+  height:20px;
+  background:purple;
+  border-radius:4px;
+  padding:8px 5px 8px 5px;
+  border:1px solid #ddd;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+ 
+}
+input{
+  height:34px;
+  width: 100px;
+  text-align: center;
+  font-size: 26px;
+  border:1px solid #ddd;
+  border-radius:4px;
+  display: inline-block;
+  vertical-align: middle;
+  background:purple;
+}
+.add {
+  position: absolute;
+  top:60%;
+  background-color:black;
+  color: #fff;
+  border:none;
+  border-radius:10px;
+  height:100px;
+  width:100px;
+}
+
+.mybtn { 
+  color: beige; 
+  height: 60px; 
+  font-size: 20px; 
+  margin: 5px; 
+  border: none; 
+  width: 100px; 
+} 
+
+.btnbox { 
+  display: flex; 
+  justify-content: center; 
+} 
+
+.mybtn:hover { 
+  background-color: purple;
+  color: rgb(82, 82, 74); 
+  box-shadow: rgba(32, 31, 31, 0.35) 0px 7px 10px; 
+  font-weight: 900; 
+
+} 
+
+.mybtn2 { 
+  border-radius: 1.5rem; 
+  background-color: black; 
+} 
